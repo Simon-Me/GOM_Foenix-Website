@@ -1,4 +1,9 @@
- header {
+body
+{
+    margin: 0;
+}
+
+header {
      position: absolute;
  }
  
@@ -262,6 +267,18 @@
      #menu-icon {
          display: none;
      }
+     
+     nav ul
+     {
+        
+     }
+     
+     nav ul,
+     nav:active ul {
+  
+     background: none;
+
+ }
      nav ul {
          float: left;
          display: inline-block;
@@ -294,8 +311,19 @@
      
      #logo
      {
-        
+        height: auto;
          width: 25%;
         
      }
+     
+    /* .current {
+        background-color: #00a250;
+         width 100%;
+         padding-top: 25px;
+        padding-bottom: 50px;
+     }
+     
+     .current a {
+        color: white;
+     }*/
  }
