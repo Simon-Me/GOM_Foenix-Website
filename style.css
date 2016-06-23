@@ -54,7 +54,7 @@ header {
  #logo {
      margin: 20px;
      float: left;
-     width: 60%;
+     width: 45%;
      height: auto;
  }
  
@@ -89,11 +89,12 @@ header {
      padding: 1%;
  }
  
- img {
+ img { 
      text-align: center;
      max-width: 100%;
      height: auto;
      width: auto;
+     
  }
  
  a {
@@ -110,18 +111,11 @@ header {
  header {
      background: white;
      width: 100%;
-     height: 170px;
+     height: 140px;
      top: 0;
      left: 0;
      z-index: 100;
      opacity: 0.90
- }
- 
- #logo {
-     margin: 20px;
-     float: left;
-     width: 25%;
-     height: auto;
  }
  
  nav {
@@ -162,10 +156,11 @@ header {
  #content {
      margin: 0 auto;
      max-width: 100%;
-     margin-top: 170px;
+     margin-top: 140px;
  }
  
  .blueberry {
+
      max-width: 100%;
  }
  
@@ -264,13 +259,14 @@ header {
  }
  
  @media screen and (min-width: 740px) {
+     
      #menu-icon {
          display: none;
      }
      
      nav ul
      {
-        
+        margin-top: 50px;
      }
      
      nav ul,
@@ -298,10 +294,11 @@ header {
          padding: 10px 0;
          margin: 0;
      }
+     
      header {
          background: white;
          width: 100%;
-         height: 170px;
+         height: 140px;
          position: fixed;
          top: 0;
          left: 0;
@@ -311,19 +308,28 @@ header {
      
      #logo
      {
-        height: auto;
-         width: 25%;
+         margin: 20px;
+     float: left;
+     width: 25%;
+     height: auto;
         
      }
      
-    /* .current {
+     #content {
+     margin-top: 140px;
+ }
+     
+     .current {
         background-color: #00a250;
-         width 100%;
-         padding-top: 25px;
+        width 100%;
+        padding-top: 25px;
         padding-bottom: 50px;
+         
      }
      
-     .current a {
-        color: white;
-     }*/
+     a.current
+     {
+         color: white;
+     }
+
  }
