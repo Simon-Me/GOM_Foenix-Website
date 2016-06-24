@@ -4,7 +4,7 @@ $(document).ready(function () {
             $(window).scroll(function () {
                 var aTop = $('header').height();
 
-                if ($(this).scrollTop() > 0) {
+                /*if ($(this).scrollTop() > 0) {
                     $('header').css("height", "70px");
                     $('#content').css("margin-top", "70px");
                     $('#logo').css("width", "10%");
@@ -18,7 +18,7 @@ $(document).ready(function () {
                     $('#logo').css("margin-top", "20px");
                     $('nav ul').css("margin-top", "0px");
                     $('.current').css("padding-bottom", "50px");
-                }
+                }*/
 
             });
         });
