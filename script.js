@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var smallHeader = false;
     $(window).resize(function () {
-        if (window.matchMedia('(min-width: 767px)').matches) {
+        if (window.matchMedia('(min-width: 768px)').matches) {
             if (!smallHeader) {
                 $('header').css("height", "140px");
                 $('#content').css("margin-top", "140px");
@@ -28,7 +28,7 @@ $(document).ready(function () {
         }
     });
     $(window).scroll(function () {
-        if (window.matchMedia('(min-width: 767px)').matches) {
+        if (window.matchMedia('(min-width: 768px)').matches) {
             if ($(this).scrollTop() > 0) {
                 smallHeader = true;
                 $('header').css("height", "70px");

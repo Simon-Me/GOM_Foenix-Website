@@ -1,0 +1,124 @@
+<!Doctype html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Foenix GmbH</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+    <link rel="stylesheet" href="blueberry.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="jquery-1.12.4.min.js"></script>
+
+    <script src="jquery.blueberry.js"></script>
+
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+
+    <script>
+        $(window).load(function () {
+            $('#mainImage').hide();
+            $('.blueberry').blueberry();
+        });
+    </script>
+
+</head>
+
+
+<body>
+    <div id="page-wrapper">
+        <div id="header">
+            <header>
+                <img src="img/logo.png" id="logo" alt="GYM INSIDE" />
+                <nav>
+                    <a href="#" id="menu-icon"></a>
+                    <ul>
+                        <li><a href="#" class="current">STARTSEITE</a></li>
+                        <li><a href="immobilien.html">IMMOBILIEN</a></li>
+                        <li><a href="#">VERMIETUNGEN</a></li>
+                        <li><a href="#">PROJEKTE</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div id="main">
+            <div id="content">
+                <div class="blueberry">
+                    <ul class="slides">
+                        <li><img src="img/titel.jpg" alt="GYM INSIDE" /></li>
+                        <li><img src="img/titel1.jpg" alt="GYM INSIDE" /></li>
+                        <li><img src="img/titel2.jpg" alt="GYM INSIDE" /></li>
+                        <li><img src="img/titel3.jpg" alt="GYM INSIDE" /></li>
+                    </ul>
+                </div>
+                <img id="mainImage" src="img/titel.jpg" alt="GYM INSIDE" />
+            </div>
+            
+            <section class="contact">
+                <h1>Kontakt</h1>
+                <p>Die gekennzeichneten Felder(*) sind Pflichtfelder.</p>
+                <form>
+                    <p>
+                        <label>Vorname *</label>
+                        <input type="text" required>
+                    </p>
+                    <p>
+                        <label>Nachname *</label>
+                        <input type="text" required>
+                    </p>
+                    <p>
+                        <label>Email-Adresse *</label>
+                        <input type="text" required>
+                    </p>
+                    <p>
+                        <label>Telefonnummer</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Betreff *</label>
+                        <input type="text" required>
+                    </p>
+                    <p>
+                        <label>Ihre Nachricht an uns *</label>
+                        <textarea rows="8" required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Absenden</button>
+                    </p>
+                </form>
+            </section>
+        </div>
+
+        <div id="footer">
+            <footer class="first">
+                <section class="impressum">
+                    <h3>FÖNIX GmbH</h3>
+                    <p>Grosse Strasse 12
+                        <br> 24937 Flensburg
+                        <br>
+                        <br> Telefon 0045 26 82 04 04
+                        <br> Mobil 0173 604 54 76
+                        <br> E-Mail  info@foenix.de
+                    </p>
+                </section>
+
+                <section class="logo">
+
+                    <img src="img/logo1.png" alt="GYM INSIDE" />
+
+                </section>
+            </footer>
+
+            <footer class="second">
+                <p>Design by Artists Of Photography</p>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
