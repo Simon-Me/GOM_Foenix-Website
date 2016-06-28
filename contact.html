@@ -62,30 +62,30 @@
             <section class="contact">
                 <h1>Kontakt</h1>
                 <p>Die gekennzeichneten Felder(*) sind Pflichtfelder.</p>
-                <form>
+                <form action="http://www.inf.fh-flensburg.de/echo/" method="post">
                     <p>
                         <label>Vorname *</label>
-                        <input type="text" required>
+                        <input type="text" name="Vorname" required>
                     </p>
                     <p>
                         <label>Nachname *</label>
-                        <input type="text" required>
+                        <input type="text" name="Nachname" required>
                     </p>
                     <p>
                         <label>Email-Adresse *</label>
-                        <input type="text" required>
+                        <input type="text" name="Email-Adresse" required>
                     </p>
                     <p>
                         <label>Telefonnummer</label>
-                        <input type="text">
+                        <input type="text" name="Telefonnummer">
                     </p>
                     <p>
                         <label>Betreff *</label>
-                        <input type="text" required>
+                        <input type="text" name="Betreff" required>
                     </p>
                     <p>
                         <label>Ihre Nachricht an uns *</label>
-                        <textarea rows="8" required></textarea>
+                        <textarea rows="8" name="Nachricht" required></textarea>
                     </p>
                     <p>
                         <button type="submit">Absenden</button>
