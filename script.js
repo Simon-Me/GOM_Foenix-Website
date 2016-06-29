@@ -8,7 +8,7 @@ $(document).ready(function () {
                 $('#logo').css("width", "300px");
                 $('#logo').css("margin-top", "20px");
                 $('nav ul').css("margin-top", "0px");
-                $('.current').css("padding-bottom", "52px");
+                $('.current').css("padding-bottom", "50px");
             } else {
                 $('header').css("height", "70px");
                 $('#content').css("margin-top", "70px");
@@ -24,7 +24,7 @@ $(document).ready(function () {
             $('#logo').css("width", "100px");
             $('#logo').css("margin-top", "10px");
             $('nav ul').css("margin-top", "0px");
-            $('.current').css("padding-bottom", "52px");
+            $('.current').css("padding-bottom", "50px");
         }
     });
     $(window).scroll(function () {
@@ -44,7 +44,7 @@ $(document).ready(function () {
                 $('#logo').css("width", "300px");
                 $('#logo').css("margin-top", "20px");
                 $('nav ul').css("margin-top", "0px");
-                $('.current').css("padding-bottom", "52px");
+                $('.current').css("padding-bottom", "50px");
             }
         }else{
             if ($(this).scrollTop() > 0) {
