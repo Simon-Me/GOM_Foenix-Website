@@ -15,7 +15,7 @@ $(document).ready(function () {
                 $('#logo').css("width", "10%");
                 $('#logo').css("margin-top", "5px");
                 $('nav ul').css("margin-top", "-30px");
-                $('.current').css("padding-bottom", "12px");
+                $('.current').css("padding-bottom", "10px");
             }
 
         } else {
@@ -36,7 +36,7 @@ $(document).ready(function () {
                 $('#logo').css("width", "10%");
                 $('#logo').css("margin-top", "5px");
                 $('nav ul').css("margin-top", "-30px");
-                $('.current').css("padding-bottom", "12px");
+                $('.current').css("padding-bottom", "10px");
             } else {
                 smallHeader = false;
                 $('header').css("height", "140px");
