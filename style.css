@@ -21,6 +21,37 @@ body {
     padding: 0;
 }
 
+table { 
+   width: 100%;
+   border-collapse: collapse; /* Alternative wäre border-collapse: separate */
+   background: white; 
+   color: black;
+   border: 1px solid #333; 
+    padding-left: 2%;
+}
+
+.green
+{
+    background: #00a250;
+    color: white;
+}
+
+.immo
+{
+    margin: auto;
+    width:92%;
+    padding-bottom: 25px;
+}
+
+.immoBild
+{
+    
+    width:100%;
+    padding-right: 2%;
+    
+}
+
+
 body h1 {
     color: #00a250;
 }
@@ -221,6 +252,7 @@ aside {
 .welcome {
     text-align: center;
 }
+
 
 .welcome h1 {
     margin: 50;
@@ -453,6 +485,37 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+    
+table { 
+   width: 48%;
+   border-collapse: collapse; /* Alternative wäre border-collapse: separate */
+   background: white; 
+   color: black;
+   border: 1px solid #333; 
+    padding-left: 2%;
+}
+
+.green
+{
+    background: #00a250;
+    color: white;
+}
+
+.immo
+{
+    margin: auto;
+    width:75%;
+    padding-bottom: 25px;
+}
+.immoBild
+{
+    float:left;
+    width:48%;
+    padding-right: 2%;
+    
+}
+    
+    
     header {
         transition: 0.5s;
         background: white;
