@@ -1,6 +1,8 @@
 @font-face {
-    font-family: Yantramanav-Light;
-    src: url(/yantramanav/yantramanav-light.ttf)}
+    font-family: 'Yantramanav-Light';
+    src: url('yantramanav/yantramanav-Light.ttf');
+}
+
 html,
 body {
     transition: 0.5s;
@@ -13,13 +15,13 @@ body {
     top: 0;
     left: 0;
     background: #f0f0f0;
-    font: 14px/20px Yantramanav-Light, Sans-Serif;
+    font: 14px/20px 'Yantramanav-Light', Sans-Serif;
     color: #555;
     margin 0;
     padding: 0;
 }
 
-body h1{
+body h1 {
     color: #00a250;
 }
 
@@ -43,6 +45,28 @@ body h1{
     bottom: 0;
     width: 100%;
     height: 200px;
+}
+
+.schmuck {
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/schmuck.png");
+}
+
+.schmuck h1 {
+    font-size: 200%;
+    padding-top: 15%;
+    color: white;
+}
+
+.schmuck img {
+    max-width: 250px;
+}
+
+.schmuck p {
+    color: white;
 }
 
 header {
@@ -78,14 +102,12 @@ header {
     color: white;
 }
 
-.maps
-{
-   float:right;
+.maps {
+    float: right;
     width: 100%;
     height: 25%;
     display: block;
     margin-top: 5%;
-    
 }
 
 nav {
@@ -201,10 +223,10 @@ aside {
 }
 
 .welcome h1 {
-    margin: 0;
+    margin: 50;
     padding: 0;
     color: #00a250;
-    text-align: center;
+    text-align: left;
 }
 
 .welcome p {
@@ -227,20 +249,24 @@ aside {
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .interact section p {
     margin: 0;
+    column-count: 1;
+    text-align: center;
 }
 
-
-#kaufen p, #mieten p{
+#kaufen p,
+#mieten p {
     margin: auto;
     width: 50%;
     text-align: center;
 }
 
-#kaufen h2, #mieten h2{
+#kaufen h2,
+#mieten h2 {
     margin: auto;
     padding: 0;
     width: 100%;
@@ -249,28 +275,28 @@ aside {
     overflow: hidden;
 }
 
-.detail_list{
+.detail_list {
     margin: auto;
     padding-bottom: 50px;
     width: 96%;
-    
 }
 
-.detail_list li{
+.detail_list li {
     padding: 10px 0;
-    
 }
-.list_headline{
+
+.list_headline {
     margin: auto;
     padding: 1% 0;
     width: 50%;
     text-align: center;
 }
-.pull-left{
-    float:left;
+
+.pull-left {
+    float: left;
 }
 
-.pull-right{
+.pull-right {
     text-align: right;
 }
 
@@ -343,6 +369,14 @@ footer.second {
 }
 
 footer.second p {
+    font-size: 80%;
+    padding: 0;
+    width: 100%;
+}
+
+footer.second a {
+    font-size: 95%;
+    color: white;
     padding: 0;
     width: 100%;
 }
@@ -402,6 +436,8 @@ button {
     margin: auto;
     margin-bottom: 40px;
 }
+
+
 /*------------------------MEDIA------------------*/
 
 @media screen and (min-width: 500px) {
@@ -473,15 +509,14 @@ button {
         text-align: center;
     }
     .welcome h1 {
-        margin: 0;
-        padding: 0;
         color: #00a250;
-        text-align: center;
+        text-align: left;
     }
     .welcome p {
         text-align: left;
         column-count: 2;
-        margin: auto;
+        margin: 0;
+        padding: 0;
     }
     .interact {
         padding-left: 0px;
@@ -542,17 +577,27 @@ button {
     footer ul {
         display: none;
     }
-    
-    #footer{
-        height:400px;
+    #footer {
+        height: 400px;
     }
     .contact {
         padding: 0 20%;
     }
-    
-    .detail_list{
+    .detail_list {
         width: 60%;
         max-width: 700px;
+    }
+    
+    .schmuck h1 {
+        font-size: 300%;
+        padding-top: 5%;
+        color: white;
+    }
+    .schmuck img {
+        max-width: 250px;
+    }
+    .schmuck p {
+        color: white;
     }
 }
 
@@ -563,10 +608,7 @@ button {
     button {
         width: 35%;
     }
-    
     nav li {
         width: 100px;
     }
-    
-    
 }
