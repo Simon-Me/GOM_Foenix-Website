@@ -24,7 +24,7 @@ $(document).ready(function () {
             $('#logo').css("width", "100px");
             $('#logo').css("margin-top", "10px");
             $('nav ul').css("margin-top", "0px");
-            $('.current').css("padding-bottom", "50px");
+            $('.current').css("padding-bottom", "10px");
         }
     });
     $(window).scroll(function () {
