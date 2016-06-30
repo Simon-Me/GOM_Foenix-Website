@@ -61,14 +61,14 @@ body h1 {
     position: relative;
 }
 
-#header {
+#header {666
     overflow: hidden;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
 #main {
-    padding-bottom: 400px;
+    padding-bottom: 200px;
 }
 
 #footer {
@@ -331,6 +331,24 @@ aside {
 .pull-right {
     text-align: right;
 }
+.welcome .impressum{
+    margin: 150px 0;
+    padding: 0;
+    width: 30%;;
+}
+
+.welcome .impressum h3{
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    text-align: left;
+    
+}
+
+.welcome .impressum p{
+    column-count: 1;
+    
+}
 
 aside {
     width: 100% padding: 0;
@@ -388,19 +406,18 @@ ul.social li {
 ul.social li img {
     height: 50px;
 }
-
 footer.second {
     margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: : 1px solid #4DE450;
     background-color: #333333;
-    max-height: 20px;
+    max-height: 40px;
     text-align: center;
     opacity: 0.95;
 }
 
-footer.second p {
+footer.second p{
     font-size: 80%;
     padding: 0;
     width: 100%;
@@ -615,8 +632,8 @@ table {
     }
     footer {
         height: 200px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     footer .impressum {
         margin-left: 20%;
@@ -640,8 +657,11 @@ table {
     footer ul {
         display: none;
     }
+    #main{
+        padding-bottom: 330px;
+    }
     #footer {
-        height: 400px;
+        height: 330px;
     }
     .contact {
         padding: 0 20%;
