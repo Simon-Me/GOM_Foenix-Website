@@ -27,7 +27,6 @@ table {
    background: white; 
    color: black;
    border: 1px solid #333; 
-    padding-left: 2%;
 }
 
 .green
@@ -47,8 +46,6 @@ table {
 {
     
     width:100%;
-    padding-right: 2%;
-    
 }
 
 
@@ -504,12 +501,12 @@ button {
 @media screen and (min-width: 768px) {
     
 table { 
-   width: 48%;
+   width: 49%;
    border-collapse: collapse; /* Alternative wäre border-collapse: separate */
    background: white; 
    color: black;
    border: 1px solid #333; 
-    padding-left: 2%;
+    padding-left: 1%;
 }
 
 .green
@@ -527,8 +524,8 @@ table {
 .immoBild
 {
     float:left;
-    width:48%;
-    padding-right: 2%;
+    width:49%;
+    padding-right: 1%;
     
 }
     

@@ -21,10 +21,11 @@
 
     <script>
         $(window).load(function () {
-            $('#mainImage').hide();
+            $('.mainImage').hide();
             $('.blueberry').blueberry();
         });
     </script>
+
 </head>
 
 
@@ -33,6 +34,7 @@
         <div id="header">
             <header>
                 <img src="img/logo.png" id="logo" alt="GYM INSIDE" />
+
                 <nav>
                     <a href="#" id="menu-icon"></a>
                     <ul>
@@ -41,7 +43,9 @@
                         <li><a href="kaufen.html">KAUFEN</a></li>
                         <li class="current"><a href="mieten.html">MIETEN</a></li>
                         <li><a href="projekte.html">PROJEKTE</a></li>
-                        <li><a href="contact.html" >KONTAKT</a></li>
+
+
+                        <li><a href="contact.html">KONTAKT</a></li>
                     </ul>
                 </nav>
             </header>
@@ -49,193 +53,176 @@
 
         <div id="main">
             <div id="content">
-                <div class="blueberry">
-                    <ul class="slides">
-                        <li><img src="img/titel.jpg" alt="GYM INSIDE" /></li>
-                        <li><img src="img/titel1.jpg" alt="GYM INSIDE" /></li>
-                        <li><img src="img/titel2.jpg" alt="GYM INSIDE" /></li>
-                        <li><img src="img/titel3.jpg" alt="GYM INSIDE" /></li>
-                    </ul>
+
+            </div>
+
+
+            <!--            -------------------------------------VERMIETUNG----------------------------------------------------------------->
+
+            <div class="immobiliensection">
+
+                <div class="welcome">
+
+                    <h1>Flensburg, Großestraße 12</h1>
+                    <p>Grossestrasse 12, ist eine Immobilie in der Fussgängerzone von Flensburg. Das Haus wurde im Jahr 1900 gebaut und enthält im Erdgeschoss eine spannede Gewerbefläche, zur Zeit gibt es dort ein Klamottenladen (CUBE). Früher war in diesem Haus auch einmal ein Kino untergebracht. Ausserdem gibt es 6 Wohnungen welche alle eine unterschiedliche Größe haben. Die oberste Wohnung hat eine große Dachterrasse mit Aussicht über die Fussgängerzone. Alle Wohnungen sind renoviert, und mit einer Einbauküche ausgestattet. Die Immobilie liegt in der unmittelbare Nähe vom Parkhaus in Speicherlinie. Mit einer Wohnung in der der Großenstraße befinden Sie sich immer in der Nähe von Einkaufmöglichkeiten und vom Zob.</p>
                 </div>
-                <img id="mainImage" src="img/titel.jpg" alt="GYM INSIDE" />
+
+                <div class="immo">
+                    <div class="immoBild">
+                        <div class="blueberry">
+                            <ul class="slides">
+                                <li><img src="img/grossestra%C3%9Fe/gro%C3%9Festra%C3%9Fe%201.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/grossestra%C3%9Fe/gro%C3%9Festra%C3%9Fe%202.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/grossestra%C3%9Fe/gro%C3%9Festra%C3%9Fe%203.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/grossestra%C3%9Fe/gro%C3%9Festra%C3%9Fe%204.jpg" alt="GYM INSIDE" /></li>
+                            </ul>
+                        </div>
+                        <img class="mainImage" src="img/grossestra%C3%9Fe/gro%C3%9Festra%C3%9Fe%204.jpg" alt="GYM INSIDE" />
+
+                    </div>
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Objektart</td>
+                                <td class="pull-right">Wohnung 3. Etage</td>
+                            </tr>
+                            <tr>
+                                <td>Adresse</td>
+                                <td class="pull-right">Großestraße 12</td>
+                            </tr>
+                            <tr>
+                                <td>Wohn- und Nutzflächen </td>
+                                <td class="pull-right">150qm</td>
+                            </tr>
+                            <tr>
+                                <td>Nebenflächen</td>
+                                <td class="pull-right">Nein</td>
+                            </tr>
+                            <tr>
+                                <td>Baujahr</td>
+                                <td class="pull-right">1900 renoviert 2013</td>
+                            </tr>
+                            <tr>
+                                <td>Heizung</td>
+                                <td class="pull-right">Fernwärmezentralheizung</td>
+                            </tr>
+                            <tr>
+                                <td>Besichtigung</td>
+                                <td class="pull-right">Auf Anfrage</td>
+                            </tr>
+                            <tr>
+                                <td>Verfügbar ab</td>
+                                <td class="pull-right">Auf Anfrage</td>
+                            </tr>
+                            <tr>
+                                <td>Kaltmiete</td>
+                                <td class="pull-right">980 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>Nebenkosten ab</td>
+                                <td class="pull-right">230 EUR</td>
+                            </tr>
+                            <tr class="green">
+                                <td>Gesamtmiete</td>
+                                <td class="pull-right">1210 EUR</td>
+                            </tr>
+                            <!-- weitere Tabellenzeilen -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
+
+            <!--            -------------------------------------VERMIETUNG----------------------------------------------------------------->
+
             
-            <div id="mieten">
-                <p>Bei uns können Sie Immobilien sowohl für den privaten als auch für den gewerblichen Betrieb mieten.<br>Auf dieser Seite finden Sie eine Auswahl dieser Immobilien</p>
-                <h1>Mieten</h1>
-                <h2>Erdgeschosswohnung mit 4 Zimmern, Stellplatz,Schuppen und Gemeinschaftsgarten für 860,50€</h2>
-                <img src="img/bojdenvej_living_room.jpg"/>
-                <h3 class="list_headline">Objekt</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Objektart</div>
-                    <div class="pull-right">Erdgeschosswohnung</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Adresse</div>
-                    <div class="pull-right">Bojdenvej 67, Nyborg </div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Zimmer</div>
-                    <div class="pull-right">4</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Stellplatz/Garage</div>
-                    <div class="pull-right">Stellplatz</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Wohn-/Nutzfläche</div>
-                    <div class="pull-right">96qm</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenflächen</div>
-                    <div class="pull-right">Schuppen, Gemeinschaftsgarten</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Baujahr</div>
-                    <div class="pull-right">nA</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Heizung</div>
-                    <div class="pull-right">Gaszentralheitung</div>
-                    </li>
-                </ul>
-                
-                <h3 class="list_headline">Kosten</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Kaltmiete</div>
-                    <div class="pull-right">726€</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenkosten</div>
-                    <div class="pull-right">134,50€</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Gesamtmiete</div>
-                    <div class="pull-right">860,50€</div>
-                    </li>
-                  
-                </ul>
-                
-                <h2>Wohnung mit Stellplatz und Balkon für 4600kr</h2>
-                <img src="img/hovedbaden_kitchen.jpg"/>
-                <h3 class="list_headline">Objekt</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Objektart</div>
-                    <div class="pull-right">Wohnung, 1. Etage</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Adresse</div>
-                    <div class="pull-right">Hovedbaden 3, Orbaek </div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Zimmer</div>
-                    <div class="pull-right">2</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Stellplatz/Garage</div>
-                    <div class="pull-right">Stellplatz</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Wohn-/Nutzfläche</div>
-                    <div class="pull-right">98qm</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenflächen</div>
-                    <div class="pull-right">Balkonzugang von zwei Zimmern</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Baujahr</div>
-                    <div class="pull-right">nA</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Heizung</div>
-                    <div class="pull-right">Gaszentralheitung</div>
-                    </li>
-                </ul>
-                
-                <h3 class="list_headline">Kosten</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Kaltmiete</div>
-                    <div class="pull-right">3900kr</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenkosten</div>
-                    <div class="pull-right">700kr</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Gesamtmiete</div>
-                    <div class="pull-right">4600kr</div>
-                    </li>
-                  
-                </ul>
-                
-                <h2>Mehrfamilienhauswohnung in der Flensburger Innenstadt für 1210€</h2>
-                <img src="img/hovedbaden_kitchen.jpg"/>
-                <h3 class="list_headline">Objekt</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Objektart</div>
-                    <div class="pull-right">Wohnung, 3. Etage</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Adresse</div>
-                    <div class="pull-right">Große Straße 12, Flensburg </div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Zimmer</div>
-                    <div class="pull-right">5</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Stellplatz/Garage</div>
-                    <div class="pull-right">Nein</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Wohn-/Nutzfläche</div>
-                    <div class="pull-right">150qm</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenflächen</div>
-                    <div class="pull-right">Nein</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Baujahr</div>
-                    <div class="pull-right">1900 renoviert 2013</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Heizung</div>
-                    <div class="pull-right">Fernwärmeheizung</div>
-                    </li>
-                </ul>
-                
-                <h3 class="list_headline">Kosten</h3>
-                
-                <ul class="detail_list">
-                    <li>
-                    <div class="pull-left">Kaltmiete</div>
-                    <div class="pull-right">980€</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Nebenkosten</div>
-                    <div class="pull-right">230€</div>
-                    </li>
-                    <li>
-                    <div class="pull-left">Gesamtmiete</div>
-                    <div class="pull-right">1210€</div>
-                    </li>
-                  
-                </ul>
-                
+            <div class="clear"></div>
+
+            <!--            -------------------------------------VERMIETUNG----------------------------------------------------------------->
+            <div class="immobiliensection">
+
+                <div class="welcome">
+
+                    <h1>Nyborg, Bøjdenvej 67</h1>
+                    <p>In der Immobilie Bøjdenvej in Dänemark, Nyborg gibt es 17 Wohnungen in unterschiedlichen Größen. Die Immobilien sind historisch als Molkerei gebaut worden. Anfang 1960 ist die Molkerei geschlossenen worden und wurde zu insgesamt 18 Wohnungen umgebaut. In 2008-09 wurde die Molkerei mehrere male Zwangsversteigert, Januar 2009 hat dann die Foenixgruppe die Immobilie gekauft. Damals war die Immobilie in einem sehr schlechten Zustand, und eine Vollrenoveierung war nötig. Zwei Wohnungen wurden dabei zusammengelegt und nach 9 Monaten Renovierung haben wir 17 Wohnungen, alle mit neue Küche und Bäder. Die Immobilien liegt in einer sehr tollen Lage. Im Moment sind alle Wohnungen vermietet, aber Interessenten können gerne eine Email zuschicken, oder das Kontaktformular benutzen um uns Wünsche über Größen und Preise zukommen zu lassen. Dann melden wir uns gerne zurück.</p>
+                </div>
+
+                <div class="immo">
+                    <div class="immoBild">
+                        <div class="blueberry">
+                            <ul class="slides">
+                                <li><img src="img/bojdenvey/bojdenvej1.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/bojdenvey/bojdenvej2.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/bojdenvey/bojdenvej3.jpg" alt="GYM INSIDE" /></li>
+                                <li><img src="img/bojdenvey/bojdenvej4.jpg" alt="GYM INSIDE" /></li>
+
+                            </ul>
+                        </div>
+                        <img class="mainImage" src="img/bojdenvey/bojdenvej4.jpg" alt="GYM INSIDE" />
+
+                    </div>
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Objektart</td>
+                                <td class="pull-right">Wohnung 3. Etage</td>
+                            </tr>
+                            <tr>
+                                <td>Adresse</td>
+                                <td class="pull-right">Großestraße 12</td>
+                            </tr>
+                            <tr>
+                                <td>Wohn- und Nutzflächen </td>
+                                <td class="pull-right">150qm</td>
+                            </tr>
+                            <tr>
+                                <td>Nebenflächen</td>
+                                <td class="pull-right">Nein</td>
+                            </tr>
+                            <tr>
+                                <td>Baujahr</td>
+                                <td class="pull-right">1900 renoviert 2013</td>
+                            </tr>
+                            <tr>
+                                <td>Heizung</td>
+                                <td class="pull-right">Fernwärmezentralheizung</td>
+                            </tr>
+                            <tr>
+                                <td>Besichtigung</td>
+                                <td class="pull-right">Auf Anfrage</td>
+                            </tr>
+                            <tr>
+                                <td>Verfügbar ab</td>
+                                <td class="pull-right">Auf Anfrage</td>
+                            </tr>
+                            <tr>
+                                <td>Kaltmiete</td>
+                                <td class="pull-right">980 EUR</td>
+                            </tr>
+                            <tr>
+                                <td>Nebenkosten ab</td>
+                                <td class="pull-right">230 EUR</td>
+                            </tr>
+                            <tr class="green">
+                                <td>Gesamtmiete</td>
+                                <td class="pull-right">1210 EUR</td>
+                            </tr>
+                            <!-- weitere Tabellenzeilen -->
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
-            
+
+            <!--            -------------------------------------VERMIETUNG----------------------------------------------------------------->
+
+            <div class="clear"></div>
+
+
+
+
+
         </div>
 
         <div id="footer">
@@ -260,12 +247,10 @@
 
             <footer class="second">
                 <a href="impressum.html">IMPRESSUM</a>
-                    <a href="dokumentation.html">DOKUMENTATION</a>
-                    <a href="timeline.html">TIMELINE</a>
+                <a href="dokumentation.html">DOKUMENTATION</a>
+                <a href="timeline.html">TIMELINE</a>
                 <p>Design by Artists Of Photography</p>
             </footer>
         </div>
     </div>
-
-
 </body>
