@@ -2,6 +2,22 @@
     font-family: 'Yantramanav-Light';
     src: url('yantramanav/yantramanav-Light.ttf');
 }
+@font-face {
+    font-family: 'Yantramanav-Thin';
+    src: url('yantramanav/yantramanav-Thin.ttf');
+}
+@font-face {
+    font-family: 'Yantramanav-Regular';
+    src: url('yantramanav/yantramanav-Regular.ttf');
+}
+@font-face {
+    font-family: 'Yantramanav-Medium';
+    src: url('yantramanav/yantramanav-Medium.ttf');
+}
+@font-face {
+    font-family: 'Yantramanav-Bold';
+    src: url('yantramanav/yantramanav-Bold.ttf');
+}
 
 html,
 body {
@@ -15,7 +31,7 @@ body {
     top: 0;
     left: 0;
     background: #f0f0f0;
-    font: 14px/20px 'Yantramanav-Light', Sans-Serif;
+    font: 14px/20px 'Yantramanav-Regular', Sans-Serif;
     color: #555;
     margin 0;
     padding: 0;
@@ -27,7 +43,7 @@ table {
    background: white; 
    color: black;
    border: 1px solid #333; 
-    padding-left: 2%;
+   padding-left: 2%;
 }
 
 .green
@@ -375,7 +391,6 @@ article {
 footer {
     background: #06a352;
     width: 100%;
-    opacity: 0.90;
     height: 200px;
 }
 
@@ -444,6 +459,10 @@ footer.second a {
     flex: 1 0 100%;
 }
 
+.contact h1{
+    text-align: left;
+}
+
 form {
     padding: 0;
     display: flex;
@@ -477,7 +496,6 @@ button {
     height: 50px;
     padding: 0;
     font-size: 16px;
-    opacity: 0.90;
     text-align: center;
     border: none;
     color: white;
@@ -485,6 +503,26 @@ button {
     margin: auto;
     margin-bottom: 40px;
 }
+
+.schmuck{
+    padding: 0;
+}
+    .schmuck h1 {
+        margin: 0;
+        font-size: 20pt;
+        padding-top: 25px;
+        color: white;
+    }
+    .schmuck img {
+        max-width: 300px;
+        width:50%;
+        margin-top: 20px;
+    }
+    .schmuck p {
+        margin:auto;
+        width: 75%;
+        color: white;
+    }
 
 
 /*------------------------MEDIA------------------*/
@@ -542,7 +580,6 @@ table {
         top: 0;
         left: 0;
         z-index: 100;
-        opacity: 0.90
     }
     #logo {
         transition: 0.5s;
@@ -671,17 +708,6 @@ table {
         max-width: 700px;
     }
     
-    .schmuck h1 {
-        font-size: 300%;
-        padding-top: 5%;
-        color: white;
-    }
-    .schmuck img {
-        max-width: 250px;
-    }
-    .schmuck p {
-        color: white;
-    }
 }
 
 @media screen and (min-width: 1224px) {
