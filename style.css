@@ -37,7 +37,7 @@ body {
     top: 0;
     left: 0;
     background: #f0f0f0;
-    font: 14px/20px 'Yantramanav-Regular', Sans-Serif;
+    font: 16px 'Yantramanav-Regular', Sans-Serif;
     color: #555;
     margin 0;
     padding: 0;
@@ -73,11 +73,6 @@ table {
     
 }
 
-
-body h1 {
-    color: #00a250;
-}
-
 #page-wrapper {
     min-height: 100%;
     position: relative;
@@ -98,14 +93,6 @@ body h1 {
     bottom: 0;
     width: 100%;
     height: 200px;
-}
-
-.schmuck {
-    text-align: center;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-image: url("img/schmuck.png");
 }
 
 .schmuck h2 {
@@ -178,6 +165,7 @@ nav ul li a {
     padding-right: 5px;
     padding-left: 5px;
     margin: 0;
+    font-size: 14px;
     color: white;
 }
 
@@ -205,6 +193,8 @@ nav:hover ul {
 }
 
 h1 {
+    color: #00a250;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 180%;
     line-height: 120%;
@@ -282,7 +272,6 @@ aside {
     margin: 50;
     padding: 0;
     color: #00a250;
-    text-align: left;
 }
 
 .welcome p {
@@ -415,7 +404,7 @@ footer div {
 
 footer div p,
 footer div h3 {
-    width: 163px;
+    width: 173px;
 }
 
 footer img {
@@ -456,10 +445,11 @@ footer.second a {
 
 .contact {
     margin: auto;
-    padding: 0 5%;
+    padding: 0;
+    padding-top: 20px;
     display: flex;
     flex-flow: wrap;
-    width: auto;
+    width: auto%;
     max-width: 1000px;
 }
 
@@ -469,7 +459,7 @@ footer.second a {
 }
 
 .contact h1{
-    text-align: left;
+    text-align: center;
 }
 
 form {
@@ -491,7 +481,7 @@ label:first-child {
 input,
 textarea {
     display: block;
-    width: 100%;
+    width: 97%;
     height: 20px;
 }
 
@@ -515,11 +505,16 @@ button {
 
 .schmuck{
     padding: 0;
+    text-align: center;
+    height: 550px;
+    background-size: cover;
+    background-position: top;
+    background-image: url("img/schmuck.png");
 }
     .schmuck h2 {
         margin: 0;
         font-size: 20pt;
-        padding-top: 50px;
+        padding-top: 40px;
         color: white;
     }
     .schmuck img {
@@ -528,10 +523,15 @@ button {
         margin-top: 20px;
     }
     .schmuck p {
-        font: 14px/20px 'Yantramanav-Thin', Sans-Serif;
+        font: 16px 'Yantramanav-Light', Sans-Serif;
         margin:auto;
         width: 75%;
         color: white;
+    }
+
+    .welcome .impressum{
+        width: 100%;
+        column-count: 1;
     }
 
 
@@ -540,7 +540,7 @@ button {
 @media screen and (min-width: 500px) {
     .contact {
         margin: auto;
-        padding: 0 10%;
+        padding: auto 10%;
     }
     button {
         width: 50%;
@@ -579,8 +579,6 @@ table {
     padding-right: 2%;
     
 }
-    
-    
     header {
         transition: 0.5s;
         background: white;
@@ -620,7 +618,7 @@ table {
     }
     nav li {
         text-align: center;
-        width: 80px;
+        width: 83px;
         margin: 0;
     }
     .welcome,
@@ -637,7 +635,7 @@ table {
     }
     .welcome h1 {
         color: #00a250;
-        text-align: left;
+        text-align: center;
     }
     .welcome p {
         text-align: left;
@@ -673,6 +671,7 @@ table {
         transition: 0.5s;
         background-color: #00a250;
         padding-bottom: 50px;
+        
     }
     a.current {
         color: white;
@@ -711,7 +710,7 @@ table {
         height: 330px;
     }
     .contact {
-        padding: 0 20%;
+        padding: 50px 20%;
     }
     .detail_list {
         width: 60%;
@@ -720,12 +719,16 @@ table {
     .schmuck{
     padding-top: 20px;
 }
+    .welcome .impressum{
+        width: 100%;
+        column-count: 1;
+    }
     
 }
 
 @media screen and (min-width: 1224px) {
     .contact {
-        padding: 0 30%;
+        padding: auto 30%;
     }
     button {
         width: 35%;
